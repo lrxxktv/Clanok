@@ -1,0 +1,89 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.11.4)  4 NOV 2020 01:45
+entering extended mode
+**"c:/Users/Laura Čerňanská/Desktop/Stránka/Mipko/clanok.tex"
+("c:/Users/Laura Čerňanská/Desktop/Stránka/Mipko/clanok.tex"
+LaTeX2e <2020-10-01> patch level 1
+L3 programming layer <2020-10-05> xparse <2020-03-03> ("C:\Users\Laura Čerňanská\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+("C:\Users\Laura Čerňanská\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo"
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count175
+\c@section=\count176
+\c@subsection=\count177
+\c@subsubsection=\count178
+\c@paragraph=\count179
+\c@subparagraph=\count180
+\c@figure=\count181
+\c@table=\count182
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) ("C:\Users\Laura Čerňanská\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty"
+Package: babel 2020/10/06 3.50 The Babel package
+ ("C:\Users\Laura Čerňanská\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def"
+File: babel.def 2020/10/06 3.50 Babel common definitions
+\babel@savecnt=\count183
+\U@D=\dimen139
+\l@babelnohyphens=\language79
+ ("C:\Users\Laura Čerňanská\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def")
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count184
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\Laura Čerňanská\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+)
+
+C:\Users\Laura Čerňanská\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty:1114: Package babel Error: Unknown option `slovak'. Either you misspelled it
+(babel)                or the language definition file slovak.ldf was not found.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1114 \ProcessOptions*
+                       
+Valid options are, among others: shorthands=, KeepShorthandsActive,
+activeacute, activegrave, noconfigs, safe=, main=, math=
+headfoot=, strings=, config=, hyphenmap=, or a language name.
+
+Package babel Info: You haven't specified a language. I'll use 'nil'
+(babel)             as the main language. Reported on input line 1153.
+("C:\Users\Laura Čerňanská\AppData\Local\Programs\MiKTeX\tex/generic/babel\nil.ldf"
+Language: nil 2020/10/06 3.50 Nil language
+\l@nil=\language80
+)) ("C:\Users\Laura Čerňanská\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+
+
+C:\Users\Laura Čerňanská\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty:111: Package fontenc Error: Encoding file `il2enc.def' not found.
+(fontenc)                You might have misspelt the name of the encoding.
+
+See the fontenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 \ProcessOptions*
+                      
+Necessary code for this encoding was not loaded.
+Thus calling the encoding later on will produce further error messages.
+
+
+C:\Users\Laura Čerňanská\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty:112: LaTeX Error: Encoding scheme `IL2' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 ...\familydefault\seriesdefault\shapedefault
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) ("C:\Users\Laura Čerňanská\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty"
+Package: inputenc 2020/08/01 v1.3d Input encoding file

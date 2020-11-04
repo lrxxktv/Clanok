@@ -3,27 +3,25 @@
 \documentclass[10pt,twoside,slovak,a4paper]{article}
 
 \usepackage[slovak]{babel}
-%\usepackage[T1]{fontenc}
-\usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
+\usepackage[IL2]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\usepackage{url} % príkaz \url na formátovanie URL
-\usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
+\usepackage{url}
+\usepackage{hyperref}
 
-\usepackage{ci}
-%\usepackage{times}
+\usepackage{cite}
 
 \pagestyle{headings}
 
 \title{Online kurzy\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2019/20, vedenie: Martin Sabo}}
 
-\author{\\[2pt]
+\author{Laura Čerňanská\\[2pt]
 	{\small Slovenská technická univerzita v Bratislave}\\
 	{\small Fakulta informatiky a informačných technológií}\\
 	{\small \texttt{xcernanska@stuba.sk}}
 	}
 
-\date{\small 8.11.2020}
+\date{\small 8. november 2020}
 
 
 
@@ -36,21 +34,19 @@
 \end{abstract}
 
 
-
-\section{Abstrakt}
-
-Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti.
-
-Uveďte explicitne štruktúru článku. Tu je nejaký príklad.
-Základný problém, ktorý bol naznačený v úvode, je podrobnejšie vysvetlený v časti~\ref{nejaka}.
-Dôležité súvislosti sú uvedené v častiach~\ref{dolezita} a~\ref{dolezitejsia}.
-Záverečné poznámky prináša časť~\ref{zaver}.
-
-
-
 \section{E-learning} \label{elearning}
 
+Z obr.~\ref{f:rozhod} je všetko jasné. 
+
+\begin{figure*}[tbh]
+\centering
 Pojem e-learning sa nedá jednoznačne zadefinovať. Každý si pod ním predstaví trochu inú definíciu či už z dôvodu že už má s daným pojmom nejaké skúsenosti alebo z faktoru doby, príp. veku. No všeobecne verím že si každý tento pojem zadefinuje so vzdelávaním v elektronickom prostredí. Keďže sa rozprávame o elektronickej forme vzdelávania, dalo by sa povedať že nám poskytuje prístupnejšiu formu získavania vedomostí. V tejto dobe sa využíva čoraz viac aj pri vzdelávaní na školách na zdielanie materiálov či získavanie informácií.
+
+\texttt{\%} pred príkazom 
+\verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
+\caption{Rozhodujúci argument.}
+\label{f:rozhod}
+\end{figure*}
 
 \subsection{Vývoj e-learningu} \label{vyvoj}
 
@@ -75,6 +71,11 @@ Tento typ kurzov sa dá inak nazvať ako kombinovaný. Je to spojenie klasickej 
 E-learning je vzdelávací proces, využívajúci informačné a komunikačné technológie k vytváraniu kurzov, k distribúcii študijného obsahu, ku komunikácii medzi študentami a pedagógmi a k riadeniu štúdia.
 Keďže forma výučby e-lerningom využíva množstvo multimediálnych prvkov ako prezentácie, obrázky, animácie, videá, zdieľané textové súbory, video či hlasové hovory, samotné zdieľané obrazovky či online testy v dnešnej dobe naberá na obrovskej popularite. Využíva sa vo firmách, školách, na vzdelávacích kurzoch, samoštúdiu a vytvára veľa možností na ďalší rozvoj vzdelávania. 
 
+
+
+
+
+
 \section{Online kurzy} \label{kurzy}
 
 Online kurz je spôsob, ako sa naučiť nové zručnosti alebo získať nové vedomosti z pohodlia domova. Môžeme ich rozdeliť na platené, alebo ponúkané zadarmo a majú veľa rôznych foriem. Na svojej najzákladnejšej úrovni majú všetci spoločné to, že učia vedomosti alebo zručnosti človeka, ktorý ich prijíma. Online kurzy sú poskytované prostredníctvom webovej stránky a je možné ich prezerať na akomkoľvek elektronickom zariadení. Môžu mať rôznu podobu vrátane vzdelávacích videí, zvukových súborov, obrázkov, pracovných listov alebo iných dokumentov. Väčšina online kurzov má aj diskusné fóra, komunitné skupiny alebo možnosti zasielania správ, čo umožňuje študentom určitý spôsob komunikácie medzi sebou alebo s učiteľom. Online výučba je obvykle spojená s vlastným tempom, čo umožňuje väčšiu flexibilitu pri absolvovaní kurzu.
@@ -83,26 +84,15 @@ Online kurz je spôsob, ako sa naučiť nové zručnosti alebo získať nové ve
 
 Prvý úplne online kurz na získanie úveru ponúkol University of Toronto v roku 1984 [60] prostredníctvom Graduate School of Education (vtedy nazývaného OISE: Ontáriový inštitút pre štúdium vzdelávania). Téma bola „Ženy a počítače vo vzdelávaní“, zaoberajúca sa rodovými otázkami a vzdelávacím výpočtom.
 
+\subsection{Popularita online kurzov} \label{popularita}
 
-\section{E-learning} \label{elearning}
-
-Z obr.~\ref{f:rozhod} je všetko jasné. 
-
-\begin{figure*}[tbh]
-\centering
-%\includegraphics[scale=1.0]{diagram.pdf}
-
-Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
-\caption{Rozhodujúci argument.}
-\label{f:rozhod}
-\end{figure*}
+\subsection{História online kurzov} \label{historia}
 
 
-\subsection{Vývoj e-learningu} \label{vyvoj}
 
-Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké (časť~\ref{ina:nejake}).\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
 
-Môže sa zdať, že problém vlastne nejestvuje\cite{Coplien:MPD}, ale bolo dokázané, že to tak nie je~\cite{Czarnecki:Staged, Czarnecki:Progress}. Napriek tomu, aj dnes na webe narazíme na všelijaké pochybné názory\cite{PLP-Framework}. Dôležité veci možno \emph{zdôrazniť kurzívou}.
+
+
 
 
 \subsection{Nejaké vysvetlenie} \label{ina:nejake}
@@ -134,16 +124,6 @@ Ten istý zoznam, len číslovaný:
 
 \paragraph{Veľmi dôležitá poznámka.}
 Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom.
-
-
-
-\section{Dôležitá časť} \label{dolezita}
-
-
-
-
-\section{Ešte dôležitejšia časť} \label{dolezitejsia}
-
 
 
 
